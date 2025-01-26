@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #031716;
+    color: #6ba3be;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #032f30;
+    color: #0c969c;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-links li a {
+    text-decoration: none;
+    color: #6ba3be;
+    transition: color 0.3s;
+}
+
+header .nav-links li a:hover {
+    color: #0c969c;
+}
+
+/* Product Details Container */
+.details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #032f30;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.details-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0c969c;
+}
+
+.details-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.details-container p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #6ba3be;
+}
+
+.details-container p strong {
+    color: #0c969c;
+}
+
+/* Go Back Button */
+.details-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #032f30;
+    background-color: #0c969c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.details-container button:hover {
+    background-color: #6ba3be;
+    color: #031716;
+}
+
+/* Footer */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #032f30;
+    color: #0c969c;
+}

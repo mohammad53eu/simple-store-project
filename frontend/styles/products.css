@@ -1,0 +1,36 @@
+.categories-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #032f30;
+}
+
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 150px;
+    text-decoration: none;
+    background-color: #0a7075;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.category-card:hover {
+    transform: scale(1.1);
+    background-color: #0c969c;
+}
+
+.categories h1 {
+    text-align: center;
+    color: #6ba3be;
+    margin-bottom: 20px;
+}
+
+p.des{
+    text-align: center;
+}
